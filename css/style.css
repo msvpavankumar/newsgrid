@@ -310,6 +310,6 @@ h1,h2,h3,h4,h5,h6 {
     width: 90%;
 }
 
-#main-footer .footer-container input[type='email']:hover {
+#main-footer .footer-container input[type='submit']:hover {
     cursor: pointer;
 }
