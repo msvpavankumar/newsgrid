@@ -56,8 +56,9 @@
       <div>
         <h3>Email Newsletter</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <form action="">
-          <input type="email" placeholder="Enter Email...">
+        <form action="" method="POST" id="form">
+          <input type="hidden" name="access_key" value="6d5454ca-8afe-43ea-84e7-dc51bff699d0">
+          <input type="email" name="email" placeholder="Enter Email...">
           <input type="submit" value="Subscribe" class="btn btn-primary">
         </form>
       </div>
@@ -80,5 +81,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="contact.js"></script>
 </body>
 </html>
